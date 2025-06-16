@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hyper {
+    @apply bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent;
+  }
+  .color-palette1 {
+    @apply h-56 rounded-3xl basis-auto bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 border-2 border-black;
+  }
+  .color-palette2 {
+    @apply h-56 rounded-3xl basis-auto bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 border-2 border-black;
+  }
+  .color-palette3 {
+    @apply h-56 rounded-3xl basis-auto bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 border-black;
+  }
+  .btn {
+    @apply bg-mySlate2 rounded-lg p-2;
+  }
+}
